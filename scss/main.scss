@@ -118,6 +118,10 @@ main {
 		background: lighten($primary-color, 5);
 		padding: 1rem;
 		border-bottom: solid 3px $secondary-color;
+		ul,
+		li {
+			list-style-type: circle;
+		}
 	}
 }
 

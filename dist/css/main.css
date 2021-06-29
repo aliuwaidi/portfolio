@@ -100,7 +100,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.svg);
+    background: url(../img/look2.png);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -184,6 +184,9 @@ main {
     background: #515151;
     padding: 1rem;
     border-bottom: solid 3px #3cadd6; }
+    .about-info .job ul,
+    .about-info .job li {
+      list-style-type: circle; }
 
 .projects {
   display: grid;
@@ -287,5 +290,7 @@ main {
   .heading {
     margin-top: 1rem;
     font-size: 5rem; }
+  .about-info {
+    text-align: left; }
   .projects {
     grid-template-columns: 1fr; } }
